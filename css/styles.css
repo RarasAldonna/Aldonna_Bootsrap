@@ -1,6 +1,11 @@
 .navigation{
 	font-size: 17px;
+	float: left;
 }
 .typography{
 	text-align: right;
+}
+
+.table{
+	float:right;
 }
