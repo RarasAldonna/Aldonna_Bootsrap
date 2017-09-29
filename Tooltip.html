@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Bagong Project</title>
+  <title>Bagong Project</title>
 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 <div class="container-fluid">
@@ -18,32 +19,91 @@
 
 
 <div class="row">
-	<div class="col-lg-12">
-		<h1>Bootstrap Tutorial</h1>
-	</div>
-		
+  <div class="col-lg-12">
+    <h1>Bootstrap Tutorial</h1>
+  </div>
+    
 </div>
 <div class="row">
-	<div class="col-sm-4">
-			<ul>
-				<li> <a href="#">Typography</a></li>
-				<li> <a href="tables.html">Tables</a> </li>
-				<li><a href="index.html">Home</a> </li>
-			</ul>
-	</div>
-	<div class="col-sm-8">
-		<h1>Headings</h1>
-		<h1>First Level Heading</h1>
-		<h2>First Level Heading</h2>
-		<h3>First Level Heading</h3>	
-	</div>
-	
+  <div class="col-sm-4">
+      <ul>
+        <li> <a href="typography.html">Typography</a></li>
+        <li><a href="tables.html"> Tables</a></li>
+        <li><a href="images.html">Images</a></li>
+        <li><a href="jumbotron.html">Jumbotron</a></li>
+        <li><a href="wells.html">Wells</a></li>
+        <li><a href="alerts.html">Alerts</a></li>
+        <li><a href="butttons.html">Buttons</a></li>
+        <li><a href="button_groups.html">Button Groups</a></li>
+        <li><a href="glyphicons.html">Glyphicons</a></li>
+        <li><a href="badges/labels.html">Badges/Labels</a></li>
+        <li><a href="progress_bars.html">Progress Bars</a></li>
+        <li><a href="pagination.html">Pagination</a></li>
+        <li><a href="pager.html">Pager</a></li>
+        <li><a href="list_groups.html">List Groups</a></li>
+        <li><a href="Panels.html">Panels</a></li>
+        <li><a href="dropdowns.html">DropDowns</a></li>
+        <li><a href="collapse.html">Collapse</a></li>
+        <li><a href="tabs/pills.html">Tabs/pills</a></li>
+        <li><a href="navbar.html">Navbar</a></li>
+        <li><a href="forms.html">Forms</a></li>
+        <li><a href="inputs.html">Inputs</a></li>
+        <li><a href="inputs2.html">Inputs 2</a></li>
+        <li><a href="input_sizing.html">Input Sizing</a></li>
+        <li><a href="media_objects.html">Media Objects</a></li>
+        <li><a href="carousel.html">Carousel</a></li>
+        <li><a href="modal.html">Modal</a></li>
+        <li><a href="tooltip.html">Tooltip</a></li>
+        <li><a href="popover.html">Popover</a></li>
+        <li><a href="scrollspy.html">Scrollspy</a></li>
+        <li><a href="affix.html">Affix</a></li>
+        <li> <a href="index.html">Home</a> </li>
+      </ul>
+  </div>
+
+<div class="container">
+  <div class="col-sm-8">
+<div>
+<div>
+  <h3>Tooltip Example</h3>
+  <a href="#" data-toggle="tooltip" title="Hooray!">Hover over me</a>
 </div>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+</div>
+
+<div>
+	<div>
+  <h3>Tooltip Example</h3>
+  <p>The data-placement attribute specifies the tooltip position.</p>
+  <ul class="list-inline">
+    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!">Top</a></li>
+    <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Hooray!">Bottom</a></li>
+    <li><a href="#" data-toggle="tooltip" data-placement="left" title="Hooray!">Left</a></li>
+    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">Right</a></li>
+  </ul>
+</div>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+
+</div>
+
+</div>
+</div>
+
 <div class="row">
-	<div class="col-sm-12">Footer</div>
+  <div class="col-sm-12">
+    <p align="center">Raras, Aldonna. Copyright 2017</p>
+  </div>
 </div>
-	</div>
-
-
+  </div>
 </body>
 </html>
